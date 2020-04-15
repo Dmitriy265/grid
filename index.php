@@ -8,21 +8,22 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-    <title>ТАБЛИЦЫ</title>
+    <title>ТАБЛИЦА</title>
+    <h1>СЕТКА</h1>
     <style>
       [class^="col-"] {
          min-height: 100px;
-         border: 6px solid black;
+         border: 3px solid black;
          box-sizing: border-box; 
       }
     </style>
   </head>
-  <body style="background-color:Pink">>
+  <body style="background-color:Pink">
      <div class="container px-lg-5">
   <div class="row mx-lg-n5">
     <div class="col py-3 px-lg-5 border bg-light">ТАБЛИЦА № 1</div>
     <div class="container">
-      <div class="row bg-warning ">
+      <div class="row bg-warning">
         <div class="col-4">1</div>
         <div class="col-3">2</div>
         <div class="col-5">3</div>
